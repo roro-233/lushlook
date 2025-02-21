@@ -1,0 +1,94 @@
+ @media (max-width: 768px) {
+    .products-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}nav ul {
+    list-style: none; /* إزالة النقاط */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* يجعل العناصر في المنتصف */
+}
+
+nav ul li {
+    margin: 0 15px; /* تباعد بين العناصر */
+}
+
+nav ul li a {
+    text-decoration: none; /* إزالة الخط السفلي من الروابط */
+    color: #333; /* لون النص */
+    font-weight: bold;
+    font-size: 18px;
+}nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* لضمان عدم تغطيته بعناصر أخرى */
+      background-color: #F2E5BF;
+    padding: 10px 0;
+    box-shadow: 0px 4px 6px;
+}
+body {
+    padding-top: 60px; /* منع المحتوى من الاختباء خلف الناف */
+}nav ul li a:hover {
+    color: #A67C52; /* تغيير اللون عند التمرير */
+}
+   body{
+        background-color: rgb(242, 229, 191);
+       padding: 0;
+       margin: 0;
+       
+       
+    }
+     .logo{
+         width: 80px;
+        height: auto;
+        margin-right: 20px;
+    }
+    h1{
+        color: blue;
+    }
+    
+   .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2, .footer-section h3 {
+    color: #c07f6d;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #5a4a42;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #c07f6d;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    border-top: 1px solid #c07f6d;
+    padding-top: 10px;
+    font-size: 14px;
+}
+    
