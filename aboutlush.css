@@ -10,6 +10,7 @@
     margin: 0;
     display: flex;
     justify-content: center; /* يجعل العناصر في المنتصف */
+  positing:flixed;
 }
 
 nav ul li {
