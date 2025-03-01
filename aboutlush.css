@@ -1,9 +1,4 @@
- @media screen and (orientation: landscape) {
-    .products-container {
-        flex-direction: column;
-        align-items: center;
-     display:block;
-    }
+
 }nav ul {
     list-style: none; /* إزالة النقاط */
     padding: 0;
