@@ -58,6 +58,7 @@ html,body{
     justify-content: space-between;
     flex-wrap: wrap;
        flex:1;
+       fixed:position;
 }
 
 .footer-section {
@@ -93,5 +94,8 @@ html,body{
     border-top: 1px solid #c07f6d;
     padding-top: 10px;
     font-size: 14px;
+    fixed:position;
+    bottom:0;
+    
 }
     
