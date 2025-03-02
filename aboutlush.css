@@ -52,7 +52,13 @@ html,body{
     height:100%;
     margin:0;
     padding:0;}
-    
+    .footer{
+        fixed:position;
+        bottom:0;
+        width:100%;
+        padding:30px;
+        text-align:center;
+    }
    .footer-content {
     display: flex;
     justify-content: space-between;
