@@ -51,7 +51,13 @@ body {
 html,body{
     height:100%;
     margin:0;
-    padding:0;}
+    padding:0;
+    display:flex;
+    flex-direction:column;
+}
+.container {
+    flex:1;
+}
     .footer::after{
         content:"";
         display:table;
@@ -63,7 +69,6 @@ html,body{
     justify-content: space-between;
     flex-wrap: wrap;
        flex:1;
-       fixed:position;
 }
 
 .footer-section {
@@ -89,7 +94,6 @@ html,body{
     color: #5a4a42;
     transition: 0.3s;
 }
-
 .footer-section ul li a:hover {
     color: #c07f6d;
 }
@@ -99,8 +103,8 @@ html,body{
     border-top: 1px solid #c07f6d;
     padding-top: 10px;
     font-size: 14px;
-    fixed:position;
+    relative:position;
+    width:100%;
     bottom:0;
-    
 }
     
