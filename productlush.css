@@ -26,6 +26,7 @@ nav ul li a {
     top: 0;
     left: 0;
     width: 100%;
+ height:100vh;
     z-index: 1000; /* لضمان عدم تغطيته بعناصر أخرى */
       background-color: #F2E5BF;
     padding: 10px 0;
