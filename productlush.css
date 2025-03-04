@@ -33,7 +33,9 @@
     .navbar-toggler {
         display: block;
     }
-}
+} body  {
+  background-color: rgb(247, 207, 216);
+    }
     .logo{
          width: 80px;
         height: auto;
@@ -70,7 +72,7 @@
 }
 
 .footer-content {
-    fixed:position;
+    position:fixed;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
