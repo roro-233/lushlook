@@ -68,6 +68,7 @@ html, body {
 }
 
 .footer-content {
+    fixed:position;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
