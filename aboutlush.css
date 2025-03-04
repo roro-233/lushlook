@@ -28,6 +28,36 @@ nav ul li a {
     box-shadow: 0px 4px 6px;
  display:block !important;
 }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #F2E5BF;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* جعل القائمة رأسية في الشاشات الصغيرة */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+}
 body {
     padding-top: 60px; /* منع المحتوى من الاختباء خلف الناف */
 }nav ul li a:hover {
